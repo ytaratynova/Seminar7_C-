@@ -69,7 +69,7 @@ double[] AverageColume(int[,] array)
         {
             sum[j] = sum[j] + array[i, j];
         }
-        average[j] = sum[j]/array.GetLength(1);
+        average[j] = sum[j]/array.GetLength(0);
     }
     return average;
         
